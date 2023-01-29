@@ -11,10 +11,18 @@
     {
       "id": 2,
       "description": "Hamburguer",
-      "type": "outncome",
+      "type": "outcome",
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2023-01-28T19:36:44.505"
+    },
+    {
+      "id": 3,
+      "description": "Comida para casa",
+      "type": "outcome",
+      "category": "Alimentação",
+      "price": 800,
+      "createdAt": "2023-01-28T14:16:14.505"
     }
   ]
 }
