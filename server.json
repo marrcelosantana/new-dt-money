@@ -49,14 +49,6 @@
       "id": 6
     },
     {
-      "description": "Salário Dell",
-      "price": 8000,
-      "category": "Salário",
-      "type": "income",
-      "createdAt": "2023-01-30T18:19:55.239Z",
-      "id": 7
-    },
-    {
       "description": "Macbook Air M1 256GB",
       "price": 6500,
       "category": "Tecnologia",

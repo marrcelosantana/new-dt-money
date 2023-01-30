@@ -21,9 +21,15 @@ const newTransactionFormSchema = zod.object({
   type: zod.enum(["income", "outcome"]),
 });
 
+interface NewTransactionModalProps {
+  setOpenModal: (openModal: boolean) => void;
+}
+
 type NewTransactionFormInputs = zod.infer<typeof newTransactionFormSchema>;
 
-export function NewTransactionModal() {
+export function NewTransactionModal({
+  setOpenModal,
+}: NewTransactionModalProps) {
   const createTransaction = useContextSelector(
     TransactionsContext,
     (context) => {
@@ -49,6 +55,7 @@ export function NewTransactionModal() {
 
     await createTransaction({ description, price, category, type });
 
+    setOpenModal(false);
     reset();
   }
 
