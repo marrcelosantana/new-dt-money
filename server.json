@@ -1,5 +1,5 @@
 {
-  "transactions" : [
+  "transactions": [
     {
       "id": 1,
       "description": "Desenvolvimento de site",
@@ -23,6 +23,38 @@
       "category": "Alimentação",
       "price": 760,
       "createdAt": "2023-01-28T14:16:14.505"
+    },
+    {
+      "description": "Desenvolvimento de App",
+      "price": 10000,
+      "category": "Venda",
+      "type": "income",
+      "createdAt": "2023-01-30T02:12:09.812Z",
+      "id": 4
+    },
+    {
+      "description": "Pastelzinho",
+      "price": 10,
+      "category": "Alimentação",
+      "type": "outcome",
+      "createdAt": "2023-01-30T02:14:28.855Z",
+      "id": 5
+    },
+    {
+      "description": "Ignite Rockeseat",
+      "price": 1980,
+      "category": "Estudos",
+      "type": "outcome",
+      "createdAt": "2023-01-30T02:36:21.461Z",
+      "id": 6
+    },
+    {
+      "description": "Salário Dell",
+      "price": 8500,
+      "category": "Salário",
+      "type": "income",
+      "createdAt": "2023-01-30T02:52:10.596Z",
+      "id": 7
     }
   ]
 }
