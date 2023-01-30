@@ -5,4 +5,3 @@ Tela Inicial
 Modal de transação  
 :-------------------------:|
 <img src= "./public/modal.jpg">
-s
